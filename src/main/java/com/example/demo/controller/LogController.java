@@ -36,7 +36,12 @@ public class LogController {
             return "redirect:/";
         }
     }
+    @GetMapping("/reg")
+    public String register()
+    {
  
+        return "reg";
+    }
     @GetMapping("/disp")
     public String display() {
         return "disp";
